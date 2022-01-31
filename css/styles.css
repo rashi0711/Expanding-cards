@@ -1,0 +1,92 @@
+*
+{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    background-color: black;
+}
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+}
+.box
+{
+    width:5vw;
+    border-radius: 50px;
+    height:80vh;
+    cursor:pointer;
+    color:#fff;
+    position: relative;
+    margin:10px;
+    transition: 0.7s ease-in;
+    
+}
+ .box h3
+ {
+   position: absolute;
+   font-size: 24px;
+   bottom:20px;
+   left:20px;
+   opacity:0;
+   
+ }
+ .active
+ {
+    flex:5;
+ }
+ .active h3
+ {
+     opacity:1;
+     transition-delay: 0.4s;
+ }
+.box1
+{
+   
+    background: url("https://images.unsplash.com/photo-1506111583091-becfd4bfa05d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+   
+    
+}
+.box2
+{
+    background: url("https://images.unsplash.com/photo-1473448912268-2022ce9509d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=841&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+.box3
+{
+    background: url("https://images.unsplash.com/photo-1432889490240-84df33d47091?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80") ;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    
+}
+.box4
+{
+    background: url("https://images.unsplash.com/photo-1480796927426-f609979314bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.box5
+{
+    background: url("https://images.unsplash.com/photo-1518295141657-bf5695e37ee7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
